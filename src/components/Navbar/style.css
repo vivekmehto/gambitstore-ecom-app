@@ -1,0 +1,22 @@
+.head {
+  height: max-content;
+  padding: 0 1rem;
+}
+
+.header-search {
+  width: 40%;
+}
+
+.header-nav ul {
+  font-size: 1.2rem;
+}
+
+.logo a:hover {
+  color: var(--text-color);
+  transition: 0.5s;
+}
+
+.header-nav ul li a:hover {
+  color: var(--text-color);
+  transition: 0.5s;
+}

@@ -1,0 +1,32 @@
+.login-container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.login-form,
+.signup-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  margin: 5rem auto;
+  width: fit-content;
+  background-color: var(--white);
+}
+
+.login-form .checkbox {
+  display: flex;
+  gap: 2rem;
+}
+
+.input-wrapper label {
+  font-size: 1rem;
+}
+
+@media screen and (max-width: 768px) {
+  .login-form {
+    width: 80%;
+  }
+}

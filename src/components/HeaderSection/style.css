@@ -1,0 +1,51 @@
+.category-list {
+  padding: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+  font-size: 1.5rem;
+}
+
+.category-topic a {
+  color: var(--text-color);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.category-topic a:hover {
+  color: var(--primary-color);
+}
+
+.main-store {
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.hero-container {
+  color: var(--white);
+  height: 50vh;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+.hero-container .hero-head {
+  position: absolute;
+  left: 2rem;
+  top: 0;
+  bottom: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.hero-head .btn-lg {
+  width: max-content;
+  color: var(--black);
+  background-color: var(--white);
+}
