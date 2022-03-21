@@ -1,9 +1,10 @@
 import { Link } from "react-router-dom";
 import "./style.css";
+
 // TODO: to make category map and background img
 const HeaderSection = () => {
   return (
-    <div>
+    <>
       <aside className="category-list">
         <div className="category-topic">
           <Link to="/products">
@@ -45,7 +46,7 @@ const HeaderSection = () => {
           </div>
         </div>
       </main>
-    </div>
+    </>
   );
 };
 

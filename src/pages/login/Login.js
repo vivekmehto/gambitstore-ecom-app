@@ -1,9 +1,12 @@
-const Login = () => {
+import { Navbar, Login } from "../../components";
+
+const LoginPage = () => {
   return (
-    <div>
-      <h1>This is Login</h1>
-    </div>
+    <>
+      <Navbar />
+      <Login />
+    </>
   );
 };
 
-export default Login;
+export default LoginPage;

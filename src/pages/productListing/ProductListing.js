@@ -1,8 +1,10 @@
+import { Navbar, Sidebar } from "../../components";
 const ProductListing = () => {
   return (
-    <div>
-      <h1>This is ProductListing</h1>
-    </div>
+    <>
+      <Navbar />
+      <Sidebar />
+    </>
   );
 };
 

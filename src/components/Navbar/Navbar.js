@@ -1,5 +1,3 @@
-import React from "react"
-
 import { Link } from "react-router-dom";
 import "./style.css";
 
@@ -10,7 +8,7 @@ const Navbar = () => {
         <Link to="/">♞GamBit Store</Link>
       </h1>
 
-      <form action="get" className="header-search">
+      <form className="header-search">
         <input type="text" name="search-box" id="search" placeholder="Search" />
         <button className="btn btn-primary" type="submit">
           <i className="fas fa-search"></i>

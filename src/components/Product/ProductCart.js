@@ -1,3 +1,5 @@
+import "./style.css";
+
 const ProductCart = ({ details }) => {
   return (
     <div class="card card-horizontal">

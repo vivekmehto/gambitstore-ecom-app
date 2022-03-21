@@ -1,3 +1,5 @@
+import "./style.css";
+
 const Product = ({ details }) => {
   return (
     <div className="card">
