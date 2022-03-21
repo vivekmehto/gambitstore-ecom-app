@@ -8,22 +8,22 @@ import { v4 as uuid } from "uuid";
 export const categories = [
   {
     _id: uuid(),
-    categoryName: "Chess-Set",
+    categoryName: "chess-set",
     imgUrl: "https://m.media-amazon.com/images/I/71GTIcTeQNS._SL1500_.jpg",
   },
   {
     _id: uuid(),
-    categoryName: "Note-Pen",
+    categoryName: "note-pen",
     imgUrl: "https://m.media-amazon.com/images/I/71LbzzDezeL._SL1500_.jpg",
   },
   {
     _id: uuid(),
-    categoryName: "Tshirt",
+    categoryName: "tshirt",
     imgUrl: "https://m.media-amazon.com/images/I/51W-CRHuZiL._UL1500_.jpg",
   },
   {
     _id: uuid(),
-    categoryName: "Books",
+    categoryName: "books",
     imgUrl:
       "https://m.media-amazon.com/images/P/0553263153.01._SCLZZZZZZZ_SX500_.jpg",
   },
