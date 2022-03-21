@@ -1,9 +1,8 @@
-function App() {
-  return (
-    <div className="App">
-      <h1>gambit store ecom app</h1>
-    </div>
-  );
-}
+import "./App.css";
+import { Home, ProductListing } from "./pages";
+
+const App = () => {
+  return <></>;
+};
 
 export default App;
