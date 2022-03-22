@@ -3,8 +3,13 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 3rem;
+  gap: 4rem;
   font-size: 1.5rem;
+}
+
+.category-img {
+  width: 100px;
+  height: 100px;
 }
 
 .category-topic a {
@@ -20,7 +25,6 @@
 }
 
 .main-store {
-  padding: 1rem;
   display: flex;
   flex-direction: column;
   gap: 2rem;
@@ -38,11 +42,10 @@
 .hero-container .hero-head {
   position: absolute;
   left: 2rem;
-  top: 0;
+  top: 20%;
   bottom: 0;
   display: flex;
   flex-direction: column;
-  justify-content: center;
 }
 
 .hero-head .btn-lg {
