@@ -1,9 +1,13 @@
 import { Navbar, Sidebar } from "../../components";
+import ProductListingSection from "../../components/ProductListingSection/ProductListingSection";
 const ProductListing = () => {
   return (
     <>
       <Navbar />
-      <Sidebar />
+      <div className="flex gap-2">
+        <Sidebar />
+        <ProductListingSection />
+      </div>
     </>
   );
 };

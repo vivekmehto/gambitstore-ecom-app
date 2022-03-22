@@ -1,1 +1,19 @@
 /* @import url("../../App.css"); */
+
+.card-small {
+  width: 600px;
+  height: 400px;
+}
+
+.card .badge-text {
+  font-size: 0.8rem;
+}
+
+.card .card-img,
+.card-img .img-responsive {
+  height: 250px;
+}
+
+.card-footer .btn-light {
+  border: none;
+}

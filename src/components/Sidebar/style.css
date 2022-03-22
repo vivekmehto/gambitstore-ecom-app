@@ -1,5 +1,5 @@
 .filter-list {
-  grid-area: aside;
+  width: 100%;
   background-color: var(--white);
   padding: 1rem;
 }

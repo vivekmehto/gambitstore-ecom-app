@@ -1,50 +1,53 @@
 import "./style.css";
-
+import { useCategoryData } from "../../utils";
 const Sidebar = () => {
+  const categories = useCategoryData();
   return (
-    <aside className="filter-list">
+    <aside className="filter-list flex flex-col gap-2">
       <div className="filter-head flex">
         <p className="head-3">Filters</p>
         <button className="btn btn-dark btn-sm">Clear</button>
       </div>
 
-      <div>
-        <fieldset>
-          <legend> Price: </legend>
+      <div className="flex flex-col gap">
+        <div>
           <input type="radio" id="highToLow" name="price" value="highToLow" />
-          <label htmlFor="highToLow">High To Low</label>
-
+          {"  "} <label htmlFor="highToLow">High To Low</label>
+        </div>
+        <div>
           <input type="radio" id="lowToHigh" name="price" value="lowToHigh" />
-          <label htmlFor="lowToHigh">Low To High</label>
-        </fieldset>
+          {"  "} <label htmlFor="lowToHigh">Low To High</label>
+        </div>
       </div>
 
-      <div>
-        <fieldset>
-          <legend>Filters</legend>
-          <label htmlFor="fastDelivery">
-            <input type="checkbox" name="fastDelivery" id="fastDelivery" />
-            Fast Delivery
-          </label>
-          <label htmlFor="inStock">
-            <input type="checkbox" name="inStock" id="inStock" />
-            Out Of Stock
-          </label>
-        </fieldset>
+      <div className="flex flex-col gap">
+        <label htmlFor="fastDelivery">
+          <input type="checkbox" name="fastDelivery" id="fastDelivery" />
+          {"  "}Fast Delivery
+        </label>
+
+        <label htmlFor="inStock">
+          <input type="checkbox" name="inStock" id="inStock" />
+          {"  "}Out Of Stock
+        </label>
       </div>
       <div className="list">
         <div className="list-title">Categories</div>
         <div className="checkbox">
-          {/* {categories.map((category) => (
-              <label className="checkbox-label" for={category.categoryName}>
-                <input
-                  id={category._id}
-                  name={category.categoryName}
-                  type="checkbox"
-                />
-                {category.categoryName}
-              </label>
-            ))} */}
+          {categories.map((category) => (
+            <label
+              className="checkbox-label"
+              key={category._id}
+              htmlFor={category.categoryName}
+            >
+              <input
+                id={category._id}
+                name={category.categoryName}
+                type="checkbox"
+              />
+              {category.categoryName}
+            </label>
+          ))}
         </div>
       </div>
       <div>
