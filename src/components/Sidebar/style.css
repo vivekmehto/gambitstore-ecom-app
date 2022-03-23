@@ -1,0 +1,13 @@
+.filter-list {
+  width: 100%;
+  background-color: var(--white);
+  padding: 1rem;
+}
+
+.filter-head {
+  justify-content: space-between;
+}
+
+.list .list-title {
+  font-size: 1rem;
+}

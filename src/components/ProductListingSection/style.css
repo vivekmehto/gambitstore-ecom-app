@@ -1,0 +1,4 @@
+.product-section {
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
