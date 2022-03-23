@@ -1,6 +1,6 @@
 import { Navbar, Signup } from "../../components";
 
-const Signup = () => {
+const SignupPage = () => {
   return (
     <>
       <Navbar />
@@ -9,4 +9,4 @@ const Signup = () => {
   );
 };
 
-export default Signup;
+export default SignupPage;
